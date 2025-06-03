@@ -1,1 +1,8 @@
 theme: jekyll-theme-slate
+
+# 数式用の設定
+## 標準でkramdownらしいけど、念の為･･･
+markdown: kramdown 
+## とりあえずkatex
+kramdown:
+  math_engine: katex
